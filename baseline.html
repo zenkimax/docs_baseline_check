@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="zh-CN" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welcome to 基线检查工具’s documentation! &mdash; 基线检查工具 0.0.1.0 文档</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/translations.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="索引" href="genindex.html" />
+    <link rel="search" title="搜索" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="#" class="icon icon-home"> 基线检查工具
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="在文档中搜索" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">Welcome to 基线检查工具’s documentation!</a><ul>
+<li><a class="reference internal" href="#id1">安装使用说明：</a></li>
+<li><a class="reference internal" href="#id2">服务器硬件绑定</a></li>
+<li><a class="reference internal" href="#id3">运行</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#indices-and-tables">Indices and tables</a></li>
+</ul>
+</div>
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">基线检查工具</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="#" class="icon icon-home"></a> &raquo;</li>
+      <li>Welcome to 基线检查工具’s documentation!</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/baseline.rst.txt" rel="nofollow"> 查看页面源码</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="welcome-to-s-documentation">
+<h1>Welcome to 基线检查工具’s documentation!<a class="headerlink" href="#welcome-to-s-documentation" title="永久链接至标题"></a></h1>
+<div class="toctree-wrapper compound">
+</div>
+<section id="id1">
+<h2>安装使用说明：<a class="headerlink" href="#id1" title="永久链接至标题"></a></h2>
+<ul class="simple">
+<li><p>基于开源项目开发的基线检查展示及docx报告生成工具。</p></li>
+</ul>
+</section>
+<section id="id2">
+<h2>服务器硬件绑定<a class="headerlink" href="#id2" title="永久链接至标题"></a></h2>
+<ul class="simple">
+<li><p>为防止软件外泄，安装前在本机（实体机）上运行机器硬件信息检查工具（pc_info.exe或者linux_info)，生成一串机器硬件信息码。</p></li>
+<li><p>将此码交给公司软件开发编译人员，编译生成该台设备专用安装包。其他设备无法打开工具。</p></li>
+</ul>
+</section>
+<section id="id3">
+<h2>运行<a class="headerlink" href="#id3" title="永久链接至标题"></a></h2>
+<ul class="simple">
+<li><p>打开软件文件夹，运行run.exe，输入服务运行的ip,端口。此ip，端口要与被检查机处于同一网段，否则检查脚本数据无法推送到本机进行处理。</p></li>
+<li><p>将Agent文件夹拷贝到被检查机，以管理员权限运行基线检查脚本。</p></li>
+<li><p>linux运行脚本命令：bash linux_baseline_check.sh &amp;lt;ip&amp;gt;:&amp;lt;port&amp;gt;</p></li>
+<li><p>windows在powershell中运行:./win2012_baseline_check.ps1;注意执行完需要输入接收数据的ip、端口信息。</p></li>
+</ul>
+</section>
+</section>
+<section id="indices-and-tables">
+<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="永久链接至标题"></a></h1>
+<ul class="simple">
+<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">索引</span></a></p></li>
+<li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">模块索引</span></a></p></li>
+<li><p><a class="reference internal" href="search.html"><span class="std std-ref">搜索页面</span></a></p></li>
+</ul>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; 版权所有 2021, 中科国智.</p>
+  </div>
+
+  利用 <a href="https://www.sphinx-doc.org/">Sphinx</a> 构建，使用了 
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">主题</a>
+    由 <a href="https://readthedocs.org">Read the Docs</a>开发.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
