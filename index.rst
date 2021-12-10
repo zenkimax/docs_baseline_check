@@ -24,7 +24,7 @@ Welcome to 基线检查工具's documentation!
 -------
 * 打开软件文件夹，运行run.exe，输入服务运行的ip,端口。此ip，端口要与被检查机处于同一网段，否则检查脚本数据无法推送到本机进行处理。
 * 将Agent文件夹拷贝到被检查机，以管理员权限运行基线检查脚本。
-* linux运行脚本命令：bash linux_baseline_check.sh &lt;ip&gt;:&lt;port&gt;
+* linux运行脚本命令：bash linux_baseline_check.sh <ip>:<port>
 * windows在powershell中运行:./win2012_baseline_check.ps1;注意执行完需要输入接收数据的ip、端口信息。
 
 Indices and tables
